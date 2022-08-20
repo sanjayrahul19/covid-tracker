@@ -23,10 +23,11 @@ const App = () => {
     setState({ data, country: country });
   };
 
-  console.log(state.country);
   console.log(state.data);
+  console.log(state.country);
 
   const { data, country } = state;
+
   return (
     <div className="container">
       <img
